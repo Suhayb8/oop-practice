@@ -19,10 +19,23 @@ class BankAccount:
 
     def show_balance(self):
 
-      return f"💸Your balance is:{self.__balance} €"
+      return f"🤑💸Your balance is:{self.__balance} €"
 
+# Uncomment below to test in console
+'''
 account = BankAccount(2000)
 print(account.deposit(5000))
 print(account.withdraw(700))
 print(account.show_balance())
+'''
+
+
+
+
+
+
+
+
+
+
 

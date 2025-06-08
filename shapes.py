@@ -15,7 +15,7 @@ class Rectangle(Shape):
         self.width = width
         self.height = height
     def area(self):
-        return self.width * self.width
+        return self.width * self.height
 
 class Triangle(Shape):
     def __init__(self, base, height):
@@ -24,6 +24,10 @@ class Triangle(Shape):
     def area(self):
         return 0.5 * self.base * self.height
 
+
+# Uncomment below to test in console
+
+'''
 shapes =[
     Circle(6),
     Rectangle(8, 2),
@@ -31,5 +35,5 @@ shapes =[
 ]
 for shape in shapes:
     print(f" {shape.__class__.__name__} area: {shape.area()}")
-
+'''
 
